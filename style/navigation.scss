@@ -1,9 +1,24 @@
 .navigation {
   background-color: $dark-bg;
+
+  .container {
+    position: relative;
+  }
+
+  .nav-link {
+    font-size: .9375rem;
+    text-transform: uppercase;
+  }
 }
 
 .language-btn {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: 1.5625rem;
+  width: 5rem;
   color: #fff;
+  font-size: .625rem;
   background-color: $dark-bg;
 }
 

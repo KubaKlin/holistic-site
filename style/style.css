@@ -5,9 +5,22 @@ body {
 .navigation {
   background-color: #000000;
 }
+.navigation .container {
+  position: relative;
+}
+.navigation .nav-link {
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+}
 
 .language-btn {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: 1.5625rem;
+  width: 5rem;
   color: #fff;
+  font-size: 0.625rem;
   background-color: #000000;
 }
 
