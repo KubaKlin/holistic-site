@@ -1,5 +1,18 @@
-.nav {
-  background-color: #000;
+body {
+  font-size: 16px;
+}
+
+.navigation {
+  background-color: #000000;
+}
+
+.language-btn {
+  color: #fff;
+  background-color: #000000;
+}
+
+.holi-logo {
+  width: 5.6875rem;
 }
 
 /*# sourceMappingURL=style.css.map */
