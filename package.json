@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KubaKlin/holistic-site/issues"
   },
-  "homepage": "https://github.com/KubaKlin/holistic-site#readme"
+  "homepage": "https://github.com/KubaKlin/holistic-site#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
 }
