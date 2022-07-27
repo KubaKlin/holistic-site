@@ -2,6 +2,15 @@ body {
   font-size: 16px;
 }
 
+.main-btn {
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  background-color: #D2B277;
+}
+
 .navigation {
   position: fixed;
   left: 0;
@@ -14,6 +23,7 @@ body {
   position: relative;
 }
 .navigation .nav-link {
+  margin-left: 0.5rem;
   font-size: 0.9375rem;
   text-transform: uppercase;
 }

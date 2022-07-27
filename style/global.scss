@@ -1,5 +1,31 @@
 $dark-bg: #000000;
+$main-color: #D2B277;
 
 body {
   font-size: 16px;
+}
+
+.head-h1 {
+
+}
+
+.head-h3 {
+
+}
+
+.head-h5 {
+
+}
+
+.para {
+
+}
+
+.main-btn {
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: .25rem;
+  text-decoration: none;
+  background-color: $main-color;
 }
