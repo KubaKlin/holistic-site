@@ -1,24 +1,29 @@
 $dark-bg: #000000;
+$light-bg: #F3F7F8;
 $main-color: #D2B277;
 
 body {
   font-size: 16px;
+  background-color: $light-bg;
+  font-family: 'Lato', sans-serif !important;
 }
 
 .head-h1 {
-
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .head-h3 {
-
+  font-size: 2rem;
 }
 
 .head-h5 {
-
+  font-size: 1.375rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .para {
-
+  font-size: 1rem;
 }
 
 .main-btn {
@@ -28,4 +33,21 @@ body {
   border-radius: .25rem;
   text-decoration: none;
   background-color: $main-color;
+}
+
+.trap-back {
+  position: relative;
+
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 8%, 100% 67%, 100% 77%, 0 56%);
+    z-index: -1;
+    background-color: $main-color;
+    opacity: .2;
+  }
 }

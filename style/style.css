@@ -1,5 +1,25 @@
 body {
   font-size: 16px;
+  background-color: #F3F7F8;
+  font-family: "Lato", sans-serif !important;
+}
+
+.head-h1 {
+  font-size: 5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.head-h3 {
+  font-size: 2rem;
+}
+
+.head-h5 {
+  font-size: 1.375rem;
+  font-family: "Playfair Display", serif;
+}
+
+.para {
+  font-size: 1rem;
 }
 
 .main-btn {
@@ -9,6 +29,22 @@ body {
   border-radius: 0.25rem;
   text-decoration: none;
   background-color: #D2B277;
+}
+
+.trap-back {
+  position: relative;
+}
+.trap-back:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 8%, 100% 67%, 100% 77%, 0 56%);
+  z-index: -1;
+  background-color: #D2B277;
+  opacity: 0.2;
 }
 
 .navigation {
@@ -73,6 +109,46 @@ body {
 
 .main-baner-content {
   text-align: center;
+}
+
+.about-us {
+  padding: 10rem 0;
+}
+
+.services-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  display: block;
+  position: relative;
+  height: 10rem;
+  flex-basis: 25%;
+  border-radius: 0.25rem;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.service-box .service-box-head {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 300ms all;
+}
+.service-box:hover .service-box-head {
+  text-decoration: none;
+  padding: 0.75rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.service-box.service-box-1 {
+  background-image: url("../img/service-1.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */

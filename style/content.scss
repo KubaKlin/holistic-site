@@ -22,3 +22,48 @@
 .main-baner-content {
   text-align: center;
 }
+
+.about-us {
+  padding: 10rem 0;
+}
+
+.services-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  display: block;
+  position: relative;
+  height: 10rem;
+  flex-basis: 25%;
+  border-radius: .25rem;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+  .service-box-head {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    transition: 300ms all;
+  }
+
+  &:hover {
+    .service-box-head {
+      text-decoration: none;
+      padding: .75rem .5rem;
+      background-color: rgba(0,0,0,.7);
+    }
+  }
+
+  &.service-box-1 {
+    background-image: url('../img/service-1.jpg');
+  }
+}
