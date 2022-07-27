@@ -6,20 +6,24 @@ body {
 
 .head-h1 {
   font-size: 5rem;
+  margin-bottom: 1.5rem;
   font-family: "Playfair Display", serif;
 }
 
 .head-h3 {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .head-h5 {
   font-size: 1.375rem;
   font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
 }
 
 .para {
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .main-btn {
@@ -118,13 +122,16 @@ body {
 .services-wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4%;
+  row-gap: 2rem;
 }
 
 .service-box {
   display: block;
   position: relative;
   height: 10rem;
-  flex-basis: 25%;
+  flex-basis: 22%;
   border-radius: 0.25rem;
   background-position: center;
   background-size: cover;
@@ -149,6 +156,34 @@ body {
 }
 .service-box.service-box-1 {
   background-image: url("../img/service-1.jpg");
+}
+
+.mid-baner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 17.5rem;
+  background-image: url("../img/baner-back.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mid-baner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mid-baner .mid-baner-head {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
