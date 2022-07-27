@@ -8,6 +8,7 @@ body {
   right: 0;
   top: 0;
   background-color: #000000;
+  z-index: 1;
 }
 .navigation .container {
   position: relative;
@@ -19,13 +20,21 @@ body {
 
 .language-btn {
   position: absolute;
-  top: 100%;
-  right: 0;
-  height: 1.5625rem;
+  top: calc(100% + 0.75rem);
+  right: 0.5rem;
+  line-height: 1.75rem;
   width: 5rem;
   color: #fff;
   font-size: 0.625rem;
   background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  transition: 300ms all;
+}
+.language-btn:hover {
+  top: calc(100% + 1rem);
+  text-decoration: none;
+  color: #aaa;
 }
 
 .holi-logo {
@@ -34,7 +43,10 @@ body {
 
 .main-baner {
   position: relative;
-  display: block;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
   width: 100%;
 }
@@ -47,6 +59,10 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: -1;
+}
+
+.main-baner-content {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
