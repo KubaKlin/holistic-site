@@ -3,8 +3,9 @@
   left: 0;
   right: 0;
   top: 0;
+  padding: 1rem 0;
   background-color: $dark-bg;
-  z-index: 1;
+  z-index: 2;
 
   .container {
     position: relative;
@@ -14,6 +15,37 @@
     margin-left: .5rem;
     font-size: .9375rem;
     text-transform: uppercase;
+  }
+}
+
+.navigation-wrapp {
+  @media (max-width:768px)  {
+    flex-direction: column;
+  }
+}
+
+.main-menu-links {
+  @media (min-width:768px) {
+    display: block !important;
+    margin-left: auto;
+  }
+}
+
+.nav-links {
+  @media (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.nav-link {
+  color: #fff;
+  padding: .75rem 1rem;
+  font-weight: 300;
+
+  &:hover{
+    color: #999;
   }
 }
 
@@ -39,4 +71,16 @@
 
 .holi-logo {
   width: 5.6875rem;
+}
+
+.menu-togler {
+  display: none;
+  margin-left: auto;
+
+  @media (max-width:768px) {
+    display: inline-block;
+    position: fixed;
+    top: .5rem;
+    right: .5rem;
+  }
 }

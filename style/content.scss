@@ -24,18 +24,41 @@
 }
 
 .about-us {
-  padding: 10rem 0;
+  padding: 10rem 0 3rem;
 }
 
 .about-us-pic {
   position: relative;
   border-radius: .5rem;
-  z-index: 1;
+  z-index: 1; 
+  max-width: 90%;
 
   &.about-us-pic-sec {
     top: -6rem;
     left: 10rem;
     z-index: 0;
+
+    @media (max-width:991px) {
+      display: none;
+    }
+  }
+
+  @media (max-width:991px) {
+    display: block;
+    position: initial;
+    margin: 2rem auto 0;
+  }
+}
+
+.about-us-content {
+  @media (min-width:991px) {
+    padding-right: 4rem;
+  }
+}
+
+.our-services {
+  .head-h3 {
+    margin-bottom: 3rem;
   }
 }
 
@@ -90,7 +113,6 @@
   justify-content: center;
   flex-direction: column;
   height: 17.5rem;
-  margin-bottom: 5rem;
   background-image: url('../img/baner-back.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -112,5 +134,93 @@
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
     z-index: 1;
+  }
+}
+
+.our-team {
+  position: relative;
+  padding: 10rem 0;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: url('../img/leafs.jpg');
+    width: 10rem;
+    height: 10rem;
+    background-size: contain;
+    z-index: -1;
+  }
+
+  &:after {
+    top: 0;
+    right: 0;
+    transform: rotate(.5turn);
+  }
+
+  &:before {
+    left: 0;
+    bottom: 0;
+  }
+
+  .head-h3 {
+    margin-bottom: 4rem;
+  }
+
+  .head-h6 {
+    margin-top: 1rem;
+  }
+}
+
+
+.contact-foot {
+  position: relative;
+
+  .contact-info {
+    display: flex;
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 4rem;
+
+    *{
+      width: 100%;
+    }
+
+    .main-btn {
+      width: auto;
+    }
+  }
+}
+
+.footer {
+  padding-top: 7rem;
+  background-color: $dark-bg;
+  color: #fff;
+}
+
+.footer-copy {
+  margin: 2rem 0 4rem;
+  color: #999;
+  font-size: .875rem;
+  line-height: 1.5rem;
+
+  a{
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      color: #666;
+    }
+  }
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  li {
+    font-size: .875rem;
+    color: #fff;
   }
 }

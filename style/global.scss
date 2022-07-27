@@ -1,3 +1,12 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
 $dark-bg: #000000;
 $light-bg: #F3F7F8;
 $main-color: #D2B277;
@@ -17,7 +26,7 @@ body {
 .head-h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .head-h5 {
@@ -26,12 +35,18 @@ body {
   margin-bottom: 1rem;
 }
 
+.head-h6 {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
 .para {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
 .main-btn {
+  display: inline-block;
   padding: 1rem 1.5rem;
   color: #fff;
   text-transform: uppercase;
@@ -43,7 +58,7 @@ body {
 .trap-back {
   position: relative;
 
-  &:after{
+  &:after {
     content: '';
     position: absolute;
     top: 0;
