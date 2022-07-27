@@ -78,3 +78,17 @@ body {
     }
   }
 }
+
+.animate,
+.animate-earlier {
+  @media (min-width: 768px) {
+    transition: 800ms all;
+    top: 60px;
+    position: relative;
+    opacity: 0;
+    &.moveIn {
+      top: 0;
+      opacity: 1;
+    }
+  }
+}
