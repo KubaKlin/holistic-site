@@ -13,6 +13,7 @@ body {
 .head-h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .head-h5 {
@@ -49,6 +50,10 @@ body {
   z-index: -1;
   background-color: #D2B277;
   opacity: 0.2;
+}
+.trap-back.trap-back-reverse:after {
+  transform: scale(-1, 1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .navigation {
