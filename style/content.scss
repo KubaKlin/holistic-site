@@ -27,12 +27,25 @@
   padding: 10rem 0;
 }
 
+.about-us-pic {
+  position: relative;
+  border-radius: .5rem;
+  z-index: 1;
+
+  &.about-us-pic-sec {
+    top: -6rem;
+    left: 10rem;
+    z-index: 0;
+  }
+}
+
 .services-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 4%;
   row-gap: 2rem;
+  margin-bottom: 10rem;
 }
 
 .service-box {
@@ -77,6 +90,7 @@
   justify-content: center;
   flex-direction: column;
   height: 17.5rem;
+  margin-bottom: 5rem;
   background-image: url('../img/baner-back.jpg');
   background-attachment: fixed;
   background-size: cover;
