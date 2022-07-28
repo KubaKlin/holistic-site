@@ -18,6 +18,35 @@
     background-color: rgba(0,0,0,.6);
     z-index: -1;
   }
+
+  &.sub {
+    justify-content: center;
+    flex-direction: column;
+    height: 12rem;
+    margin-top: 78px;
+    background-image: url('../img/baner-back.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0,0,0,.7);
+    }
+
+    .head-h1 {
+      position: relative;
+      text-align: left;
+      color: #fff;
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+      z-index: 1;
+    }
+  }
 }
 
 .main-baner-content {
@@ -72,6 +101,34 @@
   @media (min-width:991px) {
     padding-right: 4rem;
   }
+}
+
+.about-sub-wrapp {
+  display: flex;
+  text-align: left;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 4rem;
+}
+
+.sub-back-link {
+  padding-top: 1.5rem;
+
+  a {
+    font-size: .875rem;
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+      color: #333;
+    }
+  }
+}
+
+.sub-content {
+  padding: 3rem 0;
 }
 
 .our-services {
