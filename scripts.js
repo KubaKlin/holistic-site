@@ -24,12 +24,11 @@ $(document).ready(function () {
     widthRatio: 1,
     captionSelector: 'self'
   });
-  
+
   $(".inner_link").click(function(event) {
     event.preventDefault();
     $("html,body").animate({ scrollTop: $(this.hash).offset().top-150 }, 1e3);
   });
-  
 });
 
 
