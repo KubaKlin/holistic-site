@@ -30,7 +30,7 @@
 .about-us-pic {
   position: relative;
   border-radius: .5rem;
-  z-index: 1; 
+  z-index: 1;
   max-width: 90%;
 
   &.about-us-pic-sec {
@@ -145,22 +145,22 @@
   &:after {
     content: '';
     position: absolute;
-    background-image: url('../img/leafs.jpg');
-    width: 10rem;
-    height: 10rem;
+    background-image: url('../img/leafs.png');
+    width: 30rem;
+    height: 30rem;
     background-size: contain;
     z-index: -1;
   }
 
   &:after {
-    top: 0;
-    right: 0;
-    transform: rotate(.5turn);
+    top: -5rem;
+    right: -5rem;
   }
 
   &:before {
-    left: 0;
-    bottom: 0;
+    left: -5rem;
+    bottom: -5rem;
+    transform: rotate(.5turn);
   }
 
   .head-h3 {
@@ -219,7 +219,7 @@
 .footer-list {
   list-style: none;
   padding: 0;
-  
+
   li {
     font-size: .875rem;
     color: #fff;
