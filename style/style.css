@@ -19,7 +19,7 @@ body {
 .head-h5 {
   font-size: 1.375rem;
   font-family: "Playfair Display", serif;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .head-h6 {
@@ -29,7 +29,7 @@ body {
 
 .para {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .main-btn {
@@ -40,6 +40,12 @@ body {
   border-radius: 0.25rem;
   text-decoration: none;
   background-color: #D2B277;
+  transition: 300ms background;
+}
+.main-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #9c8458;
 }
 
 .trap-back {
@@ -177,8 +183,24 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
+}
+
+.main-baner-content {
+  color: #fff;
+}
+.main-baner-content .head-h4 {
+  margin-bottom: 4rem;
+}
+
+.main-baner-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  z-index: -2;
 }
 
 .main-baner-content {
