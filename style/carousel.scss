@@ -39,11 +39,23 @@
 }
 
 .team-member {
+  display: inline-block;
   max-width: 80%;
-  margin:0 auto;
+  margin: 0 auto;
+  text-decoration: none;
+
+  &:hover {
+    opacity: .7;
+    transition: 300ms opacity;
+  }
 
   img {
     max-width: 100%;
+  }
+
+  .head-h6 {
+    color: $dark-bg;
+    text-decoration: none;
   }
 }
 
