@@ -226,7 +226,8 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: auto;
-  height: 100%;
+  top: -10%;
+  height: 120%;
   z-index: -2;
 }
 
@@ -235,7 +236,7 @@ body {
 }
 
 .about-us {
-  padding: 10rem 0 3rem;
+  padding: 10rem 0 0rem;
 }
 
 .about-us-pic {
@@ -294,6 +295,9 @@ body {
   padding: 2rem 0 4rem;
 }
 
+.our-services {
+  padding-top: 6rem;
+}
 .our-services .head-h3 {
   margin-bottom: 3rem;
 }
@@ -369,6 +373,7 @@ body {
 .our-team {
   position: relative;
   padding: 10rem 0;
+  overflow: hidden;
 }
 .our-team:before, .our-team:after {
   content: "";

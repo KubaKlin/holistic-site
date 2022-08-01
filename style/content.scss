@@ -62,7 +62,8 @@
   left: 50%;
   transform: translateX(-50%);
   width: auto;
-  height: 100%;
+  top: -10%;
+  height: 120%;
   z-index: -2;
 }
 
@@ -71,7 +72,7 @@
 }
 
 .about-us {
-  padding: 10rem 0 3rem;
+  padding: 10rem 0 0rem;
 }
 
 .about-us-pic {
@@ -132,6 +133,7 @@
 }
 
 .our-services {
+  padding-top: 6rem;
   .head-h3 {
     margin-bottom: 3rem;
   }
@@ -215,6 +217,7 @@
 .our-team {
   position: relative;
   padding: 10rem 0;
+  overflow: hidden;
 
   &:before,
   &:after {
