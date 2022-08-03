@@ -1,29 +1,6 @@
-
-// carousel
-let items = document.querySelectorAll('.carousel .carousel-item')
-
-items.forEach((el) => {
-  const minPerSlide = 4
-  let next = el.nextElementSibling
-  for (var i=1; i<minPerSlide; i++) {
-    if (!next) {
-      // wrap carousel by using first child
-      next = items[0]
-    }
-    let cloneChild = next.cloneNode(true)
-    el.appendChild(cloneChild.children[0])
-    next = next.nextElementSibling
-  }
-})
-
-
 // inner link
 $(document).ready(function () {
   var top_of_window = $(window).scrollTop();
-  var $gallery = $('.main_baner_right a, .gallery_box a, .gallery_center a').simpleLightbox({
-    widthRatio: 1,
-    captionSelector: 'self'
-  });
 
   $(".inner_link").click(function(event) {
     event.preventDefault();
@@ -72,4 +49,24 @@ $(document).ready(function () {
       $(this).addClass('moveIn');
     }
   });
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true
+        }
+    }
+})
 });

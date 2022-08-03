@@ -4,10 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Holistic</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl.theme.default.min.css">
+  <script src="owl.carousel.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 </head>
@@ -137,126 +140,84 @@
 <section id="our-team" class="our-team animate-earlier">
   <div class="container text-center my-3">
     <h3 class="head-h3">Our Team</h3>
-    <div class="row mx-auto my-auto justify-content-center">
-      <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <div class="col-md-3">
-              <a href="team/ali.html" class="team-member">
-                <img src="img/ali.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Ali Shaher
-                  <span>
-                    Executive Director
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/aleksandra.html" class="team-member">
-                <img src="img/alexa.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Aleksandra Urbanska
-                  <span>
-                    Physiotherapist
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/martin.html" class="team-member">
-                <img src="img/martin.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Marcin Moscicki
-                  <span>
-                    Physiotherapist
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/areej.html" class="team-member">
-                <img src="img/areej.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Areej Fallatah
-                  <span>
-                    Physiotherapist
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/afnan.html" class="team-member">
-                <img src="img/afnan.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Afnan Alshehri
-                  <span>
-                    Phsicotherapist
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/tahani.html" class="team-member">
-                <img src="img/tahani.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Tahani Nasser
-                  <span>
-                    HR Admin Department
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/muntaha.html" class="team-member">
-                <img src="img/muntaha.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Muntaha Al-Samnan
-                  <span>
-                    Physical Therapy
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="col-md-3">
-              <a href="team/agata.html" class="team-member">
-                <img src="img/agata.jpg" alt=""/>
-                <h6 class="head-h6">
-                  Agata Bilińska
-                  <span>
-                    Clinical Nutritionist
-                  </span>
-                </h6>
-              </a>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-          <div class="arrow arrow-prev"></div>
-        </a>
-        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-          <div class="arrow"></div>
-        </a>
-      </div>
+    <div class="owl-carousel">
+      <a href="team/ali.html" class="team-member">
+        <img src="img/ali.jpg" alt=""/>
+        <h6 class="head-h6">
+          Ali Shaher
+          <span>
+            Executive Director
+          </span>
+        </h6>
+      </a>
+      <a href="team/aleksandra.html" class="team-member">
+        <img src="img/alexa.jpg" alt=""/>
+        <h6 class="head-h6">
+          Aleksandra Urbanska
+          <span>
+            Physiotherapist
+          </span>
+        </h6>
+      </a>
+      <a href="team/martin.html" class="team-member">
+        <img src="img/martin.jpg" alt=""/>
+        <h6 class="head-h6">
+          Marcin Moscicki
+          <span>
+            Physiotherapist
+          </span>
+        </h6>
+      </a>
+      <a href="team/areej.html" class="team-member">
+        <img src="img/areej.jpg" alt=""/>
+        <h6 class="head-h6">
+          Areej Fallatah
+          <span>
+            Physiotherapist
+          </span>
+        </h6>
+      </a>
+      <a href="team/afnan.html" class="team-member">
+        <img src="img/afnan.jpg" alt=""/>
+        <h6 class="head-h6">
+          Afnan Alshehri
+          <span>
+            Phsicotherapist
+          </span>
+        </h6>
+      </a>
+      <a href="team/tahani.html" class="team-member">
+        <img src="img/tahani.jpg" alt=""/>
+        <h6 class="head-h6">
+          Tahani Nasser
+          <span>
+            HR Admin Department
+          </span>
+        </h6>
+      </a>
+      <a href="team/muntaha.html" class="team-member">
+        <img src="img/muntaha.jpg" alt=""/>
+        <h6 class="head-h6">
+          Muntaha Al-Samnan
+          <span>
+            Physical Therapy
+          </span>
+        </h6>
+      </a>
+      <a href="team/agata.html" class="team-member">
+        <img src="img/agata.jpg" alt=""/>
+        <h6 class="head-h6">
+          Agata Bilińska
+          <span>
+            Clinical Nutritionist
+          </span>
+        </h6>
+      </a>
     </div>
   </div>
 </section>
 
-<section id="contact" class="contact-foot animate-earlier">
+<section id="contact" class="contact-foot">
     <div class="d-flex">
     <div class="col-6">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.2002172838093!2d46.65159620000001!3d24.822825700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee519af36c4dd%3A0xb05636d8516d039!2zUG9saXNoIFBoeXNpb3RoZXJhcHkgQ2VudGVyIHwg2KfZhNmF2LHZg9iyINin2YTYqNmI2YTZhtiv2Yog2YTZhNi52YTYp9isINin2YTYt9io2YrYudmK!5e0!3m2!1spl!2spl!4v1658946517712!5m2!1spl!2spl" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -301,17 +262,20 @@
       </div>
       <div class="col-lg-2 col-12">
         <div class="footer-list-social">
-          <a href="#" target="_blank">
-            <img src="img/social.svg" alt=""/>
+          <a href="https://www.facebook.com/profile.php?id=100079269061098" target="_blank">
+            <img src="img/socials4.svg" alt=""/>
           </a>
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/holisticppc/" target="_blank">
             <img src="img/socials2.svg" alt=""/>
           </a>
-          <a href="#" target="_blank">
+          <a href="https://twitter.com/HolisticPpc" target="_blank">
             <img src="img/socials3.svg" alt=""/>
           </a>
-          <a href="#" target="_blank">
-            <img src="img/socials4.svg" alt=""/>
+          <a href="https://www.snapchat.com/add/holisticppc?share_id=9gTEBo1f-KY&locale=ar-EG" target="_blank">
+            snap
+          </a>
+           <a href="https://www.youtube.com/channel/UC3XsBTP_X7cyksXbUF-LR-Q" target="_blank">
+            yt
           </a>
         </div>
       </div>

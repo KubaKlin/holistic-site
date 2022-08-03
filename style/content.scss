@@ -320,4 +320,12 @@
 .footer-list-social {
   display: flex;
   justify-content: space-around;
+
+  a {
+    transition: 300ms all;
+
+    &:hover {
+      opacity: .4;
+    }
+  }
 }
