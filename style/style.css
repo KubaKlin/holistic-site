@@ -508,10 +508,17 @@ body {
 }
 .team-member img {
   max-width: 100%;
+  border-radius: 0.25rem;
 }
 .team-member .head-h6 {
   color: #000000;
   text-decoration: none;
+}
+.team-member .head-h6 span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .arrow {
