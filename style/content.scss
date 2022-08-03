@@ -69,6 +69,10 @@
 
 .main-baner-content {
   text-align: center;
+
+  @media (max-width:991px) {
+      padding: 0 1.5rem;
+    }
 }
 
 .about-us {
@@ -111,6 +115,10 @@
   align-items: center;
   flex-wrap: wrap;
   padding-left: 4rem;
+
+  @media (max-width:991px) {
+    padding-left: 1rem;
+  }
 }
 
 .sub-back-link {
@@ -130,6 +138,12 @@
 
 .sub-content {
   padding: 2rem 0 4rem;
+}
+
+.sub-pic {
+  @media (max-width:991px) {
+    margin-bottom: 2rem;
+  }
 }
 
 .our-services {
@@ -157,6 +171,10 @@
   background-position: center;
   background-size: cover;
   overflow: hidden;
+
+  @media (max-width:991px) {
+    flex-basis: 48%;
+  }
 
   .service-box-head {
     position: absolute;
@@ -194,6 +212,7 @@
   background-attachment: fixed;
   background-size: cover;
 
+
   &:after {
     content: '';
     position: absolute;
@@ -211,6 +230,10 @@
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
     z-index: 1;
+
+    @media (max-width:991px) {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -254,6 +277,16 @@
 .contact-foot {
   position: relative;
 
+  .d-flex {
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+
+      .col-6 {
+        width: 100%;
+      }
+    }
+  }
+
   .contact-info {
     display: flex;
     text-align: left;
@@ -268,6 +301,10 @@
 
     .main-btn {
       width: auto;
+    }
+
+    @media (max-width: 991px) {
+      padding: 2rem 1.5rem;
     }
   }
 }

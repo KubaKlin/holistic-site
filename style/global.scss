@@ -22,6 +22,10 @@ body {
   font-size: 5rem;
   margin-bottom: 1.5rem;
   font-family: 'Playfair Display', serif;
+
+  @media (max-width:991px) {
+      font-size: 2rem;
+    }
 }
 
 .head-h3 {
