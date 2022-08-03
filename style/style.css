@@ -418,6 +418,11 @@ body {
   width: auto;
 }
 
+.content-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .footer {
   padding-top: 7rem;
   background-color: #000000;

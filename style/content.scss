@@ -272,6 +272,11 @@
   }
 }
 
+.content-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .footer {
   padding-top: 7rem;
   background-color: $dark-bg;
