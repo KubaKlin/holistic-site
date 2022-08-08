@@ -15,13 +15,14 @@ $main-color-hover: #9c8458;
 body {
   font-size: 16px;
   background-color: $light-bg !important;
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .head-h1 {
   font-size: 5rem;
   margin-bottom: 1.5rem;
-  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  text-transform: uppercase;
 
   @media (max-width:991px) {
       font-size: 2rem;
@@ -31,18 +32,22 @@ body {
 .head-h3 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-weight: 900;
+  font-weight: 600;
+}
+
+.head-h4 {
+  font-size: 1.75rem
 }
 
 .head-h5 {
   font-size: 1.375rem;
-  font-family: 'Playfair Display', serif;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
 
 .head-h6 {
   font-size: 1.25rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .para {

@@ -43,7 +43,7 @@
       text-align: left;
       color: #fff;
       font-size: 3rem;
-      font-family: 'Playfair Display', serif;
+      font-weight: 300;
       z-index: 1;
     }
   }
@@ -54,6 +54,7 @@
 
   .head-h4 {
     margin-bottom: 4rem;
+    font-weight: 300;
   }
 }
 
@@ -232,7 +233,7 @@
     text-align: center;
     color: #fff;
     font-size: 4rem;
-    font-family: 'Playfair Display', serif;
+    font-weight: 300;
     z-index: 1;
 
     @media (max-width:991px) {
