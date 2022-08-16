@@ -373,6 +373,21 @@ body {
 .service-box.service-box-1 {
   background-image: url("../img/service-1.jpg");
 }
+.service-box.service-box-2 {
+  background-image: url("../img/service-2.jpeg");
+}
+.service-box.service-box-3 {
+  background-image: url("../img/service-3.jpeg");
+}
+.service-box.service-box-4 {
+  background-image: url("../img/service-4.jpeg");
+}
+.service-box.service-box-5 {
+  background-image: url("../img/service-5.jpeg");
+}
+.service-box.service-box-6 {
+  background-image: url("../img/service-6.jpg");
+}
 .service-box.service-box-10 {
   background-image: url("../img/service-10.jpg");
 }
