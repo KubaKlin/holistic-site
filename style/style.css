@@ -371,13 +371,13 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .service-box.service-box-1 {
-  background-image: url("../img/service-1.jpg");
+  background-image: url("../img/manual_therapy.jpg");
 }
 .service-box.service-box-2 {
-  background-image: url("../img/service-2.jpeg");
+  background-image: url("../img/physio.jpeg");
 }
 .service-box.service-box-3 {
-  background-image: url("../img/service-3.jpeg");
+  background-image: url("../img/IMG_0907.jpg");
 }
 .service-box.service-box-4 {
   background-image: url("../img/service-4.jpeg");
@@ -387,6 +387,15 @@ body {
 }
 .service-box.service-box-6 {
   background-image: url("../img/service-6.jpg");
+}
+.service-box.service-box-7 {
+  background-image: url("../img/craniosacral.jpg");
+}
+.service-box.service-box-8 {
+  background-image: url("../img/chiropractic.jpg");
+}
+.service-box.service-box-9 {
+  background-image: url("../img/osteopathy.jpg");
 }
 .service-box.service-box-10 {
   background-image: url("../img/service-10.jpg");
