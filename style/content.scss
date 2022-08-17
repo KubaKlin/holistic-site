@@ -84,17 +84,8 @@
   position: relative;
   border-radius: .5rem;
   z-index: 1;
-  max-width: 90%;
-
-  &.about-us-pic-sec {
-    top: -6rem;
-    left: 10rem;
-    z-index: 0;
-
-    @media (max-width:991px) {
-      display: none;
-    }
-  }
+  max-width: 100%;
+  margin-top: 4rem;
 
   @media (max-width:991px) {
     display: block;
@@ -203,11 +194,11 @@
   }
 
   &.service-box-2 {
-    background-image: url('../img/physio.jpeg');
+    background-image: url('../img/IMG_0907.jpg');
   }
 
   &.service-box-3 {
-    background-image: url('../img/IMG_0907.jpg');
+    background-image: url('../img/physio.jpeg');
   }
 
   &.service-box-4 {
@@ -307,6 +298,10 @@
 
   .head-h6 {
     margin-top: 1rem;
+  }
+
+  @media (max-width: 991px) {
+    padding: 5rem 0;
   }
 }
 

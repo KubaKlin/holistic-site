@@ -27,6 +27,13 @@
   }
 }
 
+.owl-carousel {
+  @media (max-width: 991px) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 .owl-prev, .owl-next {
   width: 2rem;
   height: 2rem;

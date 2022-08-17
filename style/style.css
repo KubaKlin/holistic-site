@@ -259,17 +259,8 @@ body {
   position: relative;
   border-radius: 0.5rem;
   z-index: 1;
-  max-width: 90%;
-}
-.about-us-pic.about-us-pic-sec {
-  top: -6rem;
-  left: 10rem;
-  z-index: 0;
-}
-@media (max-width: 991px) {
-  .about-us-pic.about-us-pic-sec {
-    display: none;
-  }
+  max-width: 100%;
+  margin-top: 4rem;
 }
 @media (max-width: 991px) {
   .about-us-pic {
@@ -374,10 +365,10 @@ body {
   background-image: url("../img/manual_therapy.jpg");
 }
 .service-box.service-box-2 {
-  background-image: url("../img/physio.jpeg");
+  background-image: url("../img/IMG_0907.jpg");
 }
 .service-box.service-box-3 {
-  background-image: url("../img/IMG_0907.jpg");
+  background-image: url("../img/physio.jpeg");
 }
 .service-box.service-box-4 {
   background-image: url("../img/service-4.jpeg");
@@ -462,6 +453,11 @@ body {
 }
 .our-team .head-h6 {
   margin-top: 1rem;
+}
+@media (max-width: 991px) {
+  .our-team {
+    padding: 5rem 0;
+  }
 }
 
 .contact-foot {
@@ -575,6 +571,13 @@ body {
   margin-top: 0.5rem;
   font-weight: 400;
   font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .owl-carousel {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .owl-prev, .owl-next {
