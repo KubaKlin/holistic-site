@@ -496,7 +496,7 @@ body {
   flex-wrap: wrap;
   padding-left: 4rem;
 }
-.contact-foot .contact-info * {
+.contact-foot .contact-info > * {
   width: 100%;
 }
 .contact-foot .contact-info .main-btn {
@@ -514,16 +514,17 @@ body {
 }
 
 .footer {
-  padding-top: 7rem;
+  padding: 5rem 0;
   background-color: #000000;
   color: #fff;
 }
 
 .footer-copy {
-  margin: 2rem 0 4rem;
+  margin: 0;
   color: #999;
   font-size: 0.875rem;
   line-height: 1.5rem;
+  text-align: right;
 }
 .footer-copy a {
   color: #999;
@@ -552,14 +553,23 @@ body {
 }
 
 .footer-list-social {
-  display: flex;
-  justify-content: space-around;
+  margin-bottom: 3rem;
 }
 .footer-list-social a {
+  display: inline-block;
+  width: 2rem;
+  max-width: 2rem;
+  margin-right: 1rem;
   transition: 300ms all;
+  border-radius: 50%;
+  background-color: #D2B277;
+  padding: 0.5rem;
 }
 .footer-list-social a img {
+  width: 1rem;
   max-width: 1rem;
+  height: 1rem;
+  display: block;
 }
 .footer-list-social a:hover {
   opacity: 0.4;
