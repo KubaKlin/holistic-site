@@ -305,6 +305,25 @@
   }
 }
 
+.footer-logos {
+  padding: 2rem 0;
+  background-color: #fff;
+
+  .d-flex {
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    max-width: 9rem;
+    width: 100%;
+    margin: 0 2rem;
+
+    &:first-of-type {
+      max-width: 5rem;
+    }
+  }
+}
 
 .contact-foot {
   position: relative;
