@@ -201,10 +201,15 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 12rem;
-  margin-top: 78px;
+  margin-top: 76px;
   background-image: url("../img/baner-back.jpg");
   background-attachment: fixed;
   background-size: cover;
+}
+@media (max-width: 991px) {
+  .main-baner.sub {
+    height: 8rem;
+  }
 }
 .main-baner.sub:after {
   content: "";
@@ -222,6 +227,12 @@ body {
   font-size: 3rem;
   font-weight: 300;
   z-index: 1;
+}
+@media (max-width: 991px) {
+  .main-baner.sub .head-h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
 }
 
 .main-baner-content {
@@ -402,6 +413,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+@media (max-width: 991px) {
+  .mid-baner {
+    height: 12rem;
+    padding: 0 1.5rem;
+  }
+}
 .mid-baner:after {
   content: "";
   position: absolute;
@@ -468,6 +485,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 991px) {
+  .footer-logos .d-flex {
+    flex-direction: column;
+  }
+}
 .footer-logos img {
   max-width: 9rem;
   width: 100%;
@@ -518,6 +540,11 @@ body {
   background-color: #000000;
   color: #fff;
 }
+@media (max-width: 991px) {
+  .footer {
+    padding: 2.5rem 0;
+  }
+}
 
 .footer-copy {
   margin: 0;
@@ -532,6 +559,13 @@ body {
 }
 .footer-copy a:hover {
   color: #666;
+}
+@media (max-width: 991px) {
+  .footer-copy {
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
 
 .footer-list {

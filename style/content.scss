@@ -23,10 +23,14 @@
     justify-content: center;
     flex-direction: column;
     height: 12rem;
-    margin-top: 78px;
+    margin-top: 76px;
     background-image: url('../img/baner-back.jpg');
     background-attachment: fixed;
     background-size: cover;
+
+    @media (max-width: 991px) {
+      height: 8rem;
+    }
 
     &:after {
       content: '';
@@ -45,6 +49,11 @@
       font-size: 3rem;
       font-weight: 300;
       z-index: 1;
+
+      @media (max-width: 991px) {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -240,6 +249,10 @@
   background-attachment: fixed;
   background-size: cover;
 
+  @media (max-width: 991px) {
+    height: 12rem;
+    padding: 0 1.5rem;
+  }
 
   &:after {
     content: '';
@@ -312,6 +325,10 @@
   .d-flex {
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
   }
 
   img {
@@ -369,6 +386,10 @@
   padding: 5rem 0;
   background-color: $dark-bg;
   color: #fff;
+
+  @media (max-width: 991px) {
+    padding: 2.5rem 0;
+  }
 }
 
 .footer-copy {
@@ -385,6 +406,12 @@
     &:hover {
       color: #666;
     }
+  }
+
+  @media (max-width: 991px) {
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 
